@@ -1,0 +1,15 @@
+name: KitPvP
+version: 1.0
+website: https://thechest.eu
+main: eu.thechest.kitpvp.KitPvP
+author: Zeryther
+depend: [ChestAPI, HolographicDisplays]
+
+commands:
+  kit:
+    description: Choose your kit
+    aliases: [class, choosekit, chooseclass]
+  setlobby:
+    description: Define lobby location
+  autorespawn:
+    description: Toggle auto respawn
